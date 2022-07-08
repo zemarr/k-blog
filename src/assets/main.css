@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --grey-text: #828282;
+  --faint-grey: #f4f5f5;
+  --faint-grey-2: #e5e6e6;
+  --pure-white: #ffffff;
+  --pure-black: #000000;
+  --loader-color: #454356;
+  --header-font: "Playfair Display", serif;
+  --text-font: "Rubik", sans-serif;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+body {
+  transition: 2s cubic-bezier(0.23, 1, 0.320, 1);
+}
